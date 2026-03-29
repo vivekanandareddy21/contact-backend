@@ -1,4 +1,3 @@
-
 FROM eclipse-temurin:21-jdk-alpine
 
 WORKDIR /app
@@ -10,5 +9,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/contactmanager-0.0.1-SNAPSHOT.jar"]
-# trigger rebuild
+CMD ["sh", "-c", "java -jar target/*.jar"]
