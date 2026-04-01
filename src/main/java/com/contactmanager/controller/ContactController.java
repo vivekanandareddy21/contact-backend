@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/contacts")
-@CrossOrigin(origins = "http://localhost:5173") // ✅ CORS
+@CrossOrigin(origins = "https://contact-backend-5x30.onrender.com") // ✅ CORS
 public class ContactController {
 
     @Autowired
