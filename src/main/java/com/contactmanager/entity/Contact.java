@@ -14,7 +14,7 @@ public class Contact {
     private String email;
     private String phone;
     private String address;
-    private String groupName;
+    private String category;
     private boolean favorite;
     private String imageUrl;
     private String userEmail; // 🔥 NEW
@@ -44,8 +44,8 @@ public class Contact {
     public String getAddress() { return address; }
     public void setAddress(String address) { this.address = address; }
 
-    public String getGroupName() { return groupName; }
-    public void setGroupName(String groupName) { this.groupName = groupName; }
+    public String getCategory() { return category; }
+    public void setCategory(String Category) { this.category = category; }
 
     public boolean isFavorite() { return favorite; }
     public void setFavorite(boolean favorite) { this.favorite = favorite; }

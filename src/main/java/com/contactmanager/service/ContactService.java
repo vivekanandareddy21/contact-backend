@@ -43,7 +43,7 @@ public class ContactService {
         existing.setEmail(contact.getEmail());
         existing.setPhone(contact.getPhone());
         existing.setAddress(contact.getAddress());
-        existing.setGroupName(contact.getGroupName());
+        existing.setCategory(contact.getCategory());
         existing.setFavorite(contact.isFavorite());
         existing.setImageUrl(contact.getImageUrl());
 
