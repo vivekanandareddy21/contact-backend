@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 @RestController
-@RequestMapping("/contacts")
+@RequestMapping("/api/contacts")
 @CrossOrigin(origins = {"http://localhost:5173", "https://contact-backend-5x30.onrender.com"}) // ✅ CORS
 public class ContactController {
 

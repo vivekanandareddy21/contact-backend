@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:5173") // ✅ frontend port
+@CrossOrigin(origins = "https://contact-backend-5x30.onrender.com") // ✅ frontend port
 public class AuthController {
 
     @Autowired
